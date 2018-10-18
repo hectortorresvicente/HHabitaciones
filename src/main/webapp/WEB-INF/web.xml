@@ -1,0 +1,38 @@
+
+
+<web-app>
+	<servlet>
+		<description>
+		</description>
+		<display-name>RreservaServlet</display-name>
+		<servlet-name>RreservaServlet</servlet-name>
+		<servlet-class>com.htv.controler.RreservaServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>PedidoServlet</display-name>
+		<servlet-name>PedidoServlet</servlet-name>
+		<servlet-class>com.htv.controler.PedidoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>PagandoServlet</display-name>
+		<servlet-name>PagandoServlet</servlet-name>
+		<servlet-class>com.htv.controler.PagandoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RreservaServlet</servlet-name>
+		<url-pattern>/RreservaServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PedidoServlet</servlet-name>
+		<url-pattern>/PedidoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PagandoServlet</servlet-name>
+		<url-pattern>/PagandoServlet</url-pattern>
+	</servlet-mapping>
+ 
+</web-app>
